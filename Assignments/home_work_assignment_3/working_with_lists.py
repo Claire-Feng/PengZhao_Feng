@@ -1,3 +1,10 @@
+'''
+Name: PengZhao Feng
+Student ID: 0891248
+Due Date: 09/15/2019
+Class: MSITM 6341
+'''
+
 grocery_items = ['Grape', 'Strawberry', 'Cherry','Tomato', 'Avacado']
 grocery_prices = [5.00,2.00,7.00,1.00,3.00]
 #1.	Print the 3rd item followed by it’s price
