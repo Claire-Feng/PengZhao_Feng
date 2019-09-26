@@ -1,3 +1,10 @@
+'''
+Name: PengZhao Feng
+Student ID: 0891248
+Due Date: 09/26/2019
+Class: MSITM 6341
+'''
+
 menu_items_in_stock = ['Tacos','Chips','Salsa','Quesadilla']
 customer_order = ['Tacos','Guacamole','Burrito','Chips', 'Salsa']
 
