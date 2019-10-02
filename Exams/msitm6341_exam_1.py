@@ -39,20 +39,20 @@ stock_price_changes = []
 #TODO Write a for loop that iterates over all of the stock prices and computes the change in prices.
 #Hint: How many elements should there be in stock_price_changes? 5
 
+for i in range(len(stock_prices) - 1):
+    price_change = stock_prices[i+1] - stock_prices[i]
+    stock_price_changes.append(price_change)
 
 print("------------ " + stock_symbol + " ------------")
 
 idx = 0
-for price_change in stock_prices:
-    if idx == len(stock_prices) -1:
-        break
+for price_change in stock_price_changes:
     what_day = ""
     if idx == 0:
         what_day = "Yesterday: "
     else:
         what_day = str(idx + 1) + " Days Ago:"
 
-    price_change = stock_prices[idx+1] - stock_prices[idx]
     if price_change > 0:
         print(what_day + " Stock Decreased: " + str(price_change))
     elif price_change < 0:
