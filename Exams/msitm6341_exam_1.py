@@ -37,7 +37,7 @@ stock_prices = [90.35, 89.92, 90.81, 90.07, 91.56, 91.56]
 stock_price_changes = []
 
 #TODO Write a for loop that iterates over all of the stock prices and computes the change in prices.
-#Hint: How many elements should there be in stock_price_changes? 5
+#Hint: How many elements should there be in stock_price_changes? 
 
 for i in range(len(stock_prices) - 1):
     price_change = stock_prices[i+1] - stock_prices[i]
