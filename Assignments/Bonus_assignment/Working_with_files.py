@@ -1,3 +1,10 @@
+'''
+Name: PengZhao Feng
+Student ID: 0891248
+Due Date: 12/7/2019
+Class: MSITM 6341
+'''
+
 import re
 
 fileName = 'test.txt'
